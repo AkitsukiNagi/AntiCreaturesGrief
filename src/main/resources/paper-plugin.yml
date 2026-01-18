@@ -1,0 +1,4 @@
+name: AntiCreaturesGrief
+version: '1.0'
+main: me.akitsuki.antiCreaturesGrief.AntiCreaturesGrief
+api-version: '1.21'
