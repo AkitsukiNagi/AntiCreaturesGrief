@@ -2,6 +2,6 @@ name: AntiCreaturesGrief
 version: '1.0'
 main: me.akitsuki.antiCreaturesGrief.AntiCreaturesGrief
 api-version: '1.21'
-prefit: [ AntiCreaturesGrief ]
-Authors: [ 秋月ナギ ]
-description: Configurable anti mob-grieving plugin.
+prefix: [ AntiCreaturesGrief ]
+authors: [ 秋月ナギ ]
+description: Configurable anti creatures grieving plugin.
