@@ -1,0 +1,90 @@
+player:
+  # Allow turtle eggs to break when being trampled by players.
+  turtle-egg-trampling: true
+
+mobs:
+  # Allow turtle eggs to break when being trampled by others.
+  turtle-egg-trampling: true
+
+creeper:
+  # Allow creeper's explosion to destroy terrain.
+  explosion-destruction: false
+  # Allow creeper to jump on farmland and destroy it.
+  farm-stepping: true
+
+enderman:
+  # Allow enderman to pickup blocks (grass block, sand, etc).
+  block-pickup: false
+
+ghast:
+  # Allow ghast to destroy terrain.
+  fireball-destruction: false
+  # Allow ghast to ignite. Need fireball-destruction also be allowed to work.
+  fireball-ignition: false
+
+villager:
+  # Allow villagers to farm.
+  allow-farming: true
+  # Allow villagers to jump on farmland and destroy it.
+  farm-stepping: true
+
+ravager:
+  # Allow ravager to destroy crops (In vanilla, crops are like to be destroyed when ravager stepping on.)
+  crop-destruction: true
+  # Allow ravager to jump on farmland and destroy it.
+  farm-stepping: true
+
+vindicator:
+  # Allow vindicator to break doors.
+  door-breaking: true
+  # Allow vindicator to jump on farmland and destroy it.
+  farm-stepping: true
+
+pillager:
+  pickup-items: true
+
+evoker:
+  # Allow evoker to convert sheep from blue to red within 16 blocks.
+  evoke-wololo: true
+
+breeze:
+  # Allow breeze's wind burst to interact with redstone components.
+  block-interaction: true
+
+# zombie contains husk, drown, zombie villager.
+zombie:
+  # Allow zombie to break doors.
+  door-breaking: true
+  # Allow zombie to pick up items.
+  pickup-items: true
+  # Allow zombie to jump on farmland and destroy it.
+  farm-stepping: true
+
+piglin:
+  # Allow piglin to pick up items.
+  pickup-items: true
+
+zombified_piglin:
+  # Allow zombified piglin to break doors.
+  door-breaking: true
+
+# skeleton contains bogged, stray, wither skeleton.
+skeleton:
+  # Allow skeleton to jump on farmland and destroy it.
+  farm-stepping: true
+
+silverfish:
+  # Allow silverfish to infest blocks.
+  block-infestation: true
+
+fox:
+  # Allow fox to harvest sweet berries.
+  berry-harvest: true
+
+wither:
+  # Allow wither to destroy blocks.
+  block-destruction: true
+
+ender_dragon:
+  # Allow ender dragons to destroy blocks.
+  block-destruction: true
